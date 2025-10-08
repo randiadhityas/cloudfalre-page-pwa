@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PWA Exam App</title>
+
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#2563eb"/>
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
+  
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <img src="assets/icon-192.png" alt="App Logo" class="logo">
+      <h1>📝 National Exam PWA</h1>
+      <p class="subtitle">Simple • Fast • Works Offline</p>
+    </header>
+    <!-- ✨ Quote Section -->
+    <blockquote class="quote">
+    <p id="quoteText">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.”</p>
+    <footer>— Malcolm X</footer>
+    </blockquote>
+    <section>
+      <p>This is a sample PWA designed for national exams in Indonesia 🇮🇩. You can install this app and it will work even without internet.</p>
+      <button id="pingBtn" class="btn-primary">Check Connection</button>
+      <p id="status" class="status"></p>
+    </section>
+
+    <footer>
+      <p>Built with ❤️ using PWA + Cloudflare Pages</p>
+    </footer>
+  </main>
+</body>
+</html>
